@@ -1,0 +1,869 @@
+{
+  "Key Push": {
+    "Normal 1": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.12 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "Normal 2": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ],
+    "X2 ABS 1": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 140000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 329000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 300000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "X2 ABS 2": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ]
+  },
+  "Flash Sale Nua Dem": {
+    "Normal": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 140000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 329000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 300000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "High ABS": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMCG" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ]
+  },
+  "Best Selling Products": {
+    "1": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Deal Gia Soc": {
+    "Under 59K": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 10000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ]
+    ],
+    "Under 99K": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 60000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ]
+    ]
+  },
+  "FSS Deals": {
+    "1": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Cashback": {
+    "1": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Fashion Friday": {
+    "Normal": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ]
+    ],
+    "High ABS": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ]
+    ]
+  },
+  "Daily": {
+    "Normal": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ]
+    ],
+    "High ABS": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ]
+    ]
+  },
+  "Key Push": {
+    "Normal 1 Saturday ": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.12 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "Normal 2 Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ],
+    "X2 ABS 1 Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 140000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 329000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 300000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "X2 ABS 2 Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ]
+  },
+  "Flash Sale Nua Dem": {
+    "Normal Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 140000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 329000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.15 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 300000 },
+        { "field": "max_item_price_pp", "operator": "<=", "value": 999999 }
+      ]
+    ],
+    "High ABS Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMCG" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.1 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000000 }
+      ]
+    ]
+  },
+  "Best Selling Products": {
+    "Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Deal Gia Soc": {
+    "Under 59K Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 9001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 10000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 59000 }
+      ]
+    ],
+    "Under 99K Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 59001 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 50 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 60000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 99000 }
+      ]
+    ]
+  },
+  "FSS Deals": {
+    "Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.3 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Cashback": {
+    "Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.2 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 }
+      ]
+    ]
+  },
+  "Daily": {
+    "Normal Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 500000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.05 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 1000 },
+        { "field": "min_item_price_pp", "operator": "<=", "value": 4999999 }
+      ]
+    ],
+    "High ABS Saturday": [
+      [
+        { "field": "group_cat", "operator": "=", "value": "FAS" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "ELH" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "LST" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ],
+      [
+        { "field": "group_cat", "operator": "=", "value": "FMC" },
+        { "field": "is_fss", "operator": "=", "value": true },
+        { "field": "is_ccb", "operator": "=", "value": true },
+        { "field": "sku_stock", "operator": ">=", "value": 1 },
+        { "field": "discount", "operator": ">=", "value": 0.03 },
+        { "field": "min_item_price_pp", "operator": ">=", "value": 5000000 }
+      ]
+    ]
+  }
+}
+
+

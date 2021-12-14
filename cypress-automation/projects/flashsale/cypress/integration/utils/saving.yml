@@ -1,0 +1,31 @@
+variables:
+  TEST_ENV: "test"
+  BASE_URL: "https://test-vanhanh.uat.shopee.vn"
+
+services:
+  - docker:18.09.7-dind
+
+stages:
+  - test
+
+test:
+  image: cypress/browsers:latest
+  stage: test
+  tags:
+    - dev
+  script:
+    - npm install package.json
+    - npm run fs:"$TEST_ENV" -- --config baseUrl="$BASE_URL"
+  only:
+    - /^dev-.*/
+    - /^test-.*/
+    - /^uat-.*/
+    - /^staging-.*/
+    - /^v[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}/
+  except:
+    - branches
+  artifacts:
+    when: always
+    paths:
+      - projects/flashsale/cypress/reports/html
+    expire_in: 30 days  

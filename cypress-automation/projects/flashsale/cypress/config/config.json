@@ -1,0 +1,27 @@
+{
+  "test": {
+    "baseUrl": "https://test-vanhanh.uat.shopee.vn/flash-sale/backend/api/",
+    "headers": {
+      "authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjk4LCJ1c2VybmFtZSI6InRyaW5naGlhLm5ndXllbiIsImV4cCI6MTYzNTMyODY2MywiZW1haWwiOiJ0cmluZ2hpYS5uZ3V5ZW5Ac2hvcGVlLmNvbSJ9.jG0IuS7QAE3L_jFZPD7NkKfF609dRE5eBSnUm8wwso8",
+      "content-type": "application/json"
+    },
+    "header_upload": {
+      "authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjk4LCJ1c2VybmFtZSI6InRyaW5naGlhLm5ndXllbiIsImV4cCI6MTYyODQ5OTYyMiwiZW1haWwiOiJ0cmluZ2hpYS5uZ3V5ZW5Ac2hvcGVlLmNvbSJ9.U3YaOA-Vt0QTjhbeDmiba450ZaNdv07iil459wj3wVA",
+      "content-type": "multipart/form-data"
+    },
+    "getTokenUrl": "https://test-vanhanh.uat.shopee.vn/sso/api/auth/token/",
+    "baseUrlUi": "https://test-vanhanh.uat.shopee.vn/portal/flash-sale/plan-management/"
+  },
+  "staging": {
+    "baseUrl": "http://localhost:8000",
+    "headers": {
+      "host": "api.staging.core-integrator.shopee.vn"
+    }
+  },
+  "live": {
+    "baseUrl": "http://localhost:8000",
+    "headers": {
+      "host": "api.core-integrator.shopee.vn"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "env": {
+    "env": "test"
+  },
+  "integrationFolder": "./cypress/integration/test/ui_bdd/",
+  "testFiles": "**/*.*",
+  "videoCompression": false,
+  "defaultCommandTimeout": 2000,
+  "reporter": "../../node_modules/cypress-mochawesome-reporter/lib/reporter.js",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/results-[hash].xml"
+  }
+}

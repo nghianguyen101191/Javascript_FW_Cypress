@@ -1,0 +1,22 @@
+<<<<<<< HEAD:cypress.json
+{}
+=======
+{
+    "test": {
+        "baseUrl": "https://test-vanhanh.uat.shopee.vn",
+        "headers": {}
+    },
+    "staging": {
+        "baseUrl": "http://localhost:8000",
+        "headers": {
+            "host": "api.staging.core-integrator.shopee.vn"
+        }
+    },
+    "live": {
+        "baseUrl": "http://localhost:8000",
+        "headers": {
+            "host": "api.core-integrator.shopee.vn"
+        }
+    }
+}
+>>>>>>> master:projects/spex/cypress/config/config.json

@@ -1,0 +1,25 @@
+{
+  "planSettings": {
+    "cluster": "Fashion",
+    "validPlanName": "createPlan",
+    "LongPlanName": "createPlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlancreatePlan"
+  },
+  "scheduleSettings": {
+    "totalDay": 3,
+    "time": 22,
+    "startTime": "01:00",
+    "endTime": "04:00"
+  },
+  "dealTypeSettings": {
+    "dealTypeName": "Key Push X2 ABS 1",
+    "numberOfSlotBatch": 200
+  },
+  "distributionSettings": {
+    "minSlot": 1,
+    "itemDay": 2,
+    "itemPlan": 3,
+    "sellerBatch": 1,
+    "sellerDay": 3,
+    "sellerPlan": 4
+  }
+}
